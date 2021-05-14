@@ -40,4 +40,17 @@
 table {
   margin: auto;
   width: 70%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: thin solid black;
+}
+
+tr:first-child {
+  border-top: none;
+}
+
+tr:last-child {
+  border-bottom: none;
 }
